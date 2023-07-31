@@ -1,0 +1,26 @@
+.popup {
+  padding-top: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  z-index: 4;
+}
+
+.popup_hidden {
+  display: none;
+}
+
+.popup__wrapper {
+  position: relative;
+  width: 26rem;
+  margin: auto;
+  background-color: #fff;
+}
+
+.popup__content {
+  padding: 53px 30px;
+}
