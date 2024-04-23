@@ -42,17 +42,7 @@ body {
   font-size: 0.94rem;
 }
 
-.popup__block {
-	font-size: 0.87rem;
-}
 
-.popup__block:not(:last-child) { /*срабатывает на последний ????*/
-  margin-bottom: 32px;
-}
-
-/* .popup__block:nth-child(n+2) {
-	margin-top: 32px;
-} */
 
 .popup_question {
 	display: inline-block;
