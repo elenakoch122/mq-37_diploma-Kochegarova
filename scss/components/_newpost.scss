@@ -1,0 +1,42 @@
+.newpost {
+  display: flex;
+  margin-top: 22px;
+  align-items: flex-start;
+
+  &__img {
+    object-fit: cover;
+    display: block;
+
+    &__wrapper {
+      width: 70px;
+      background-color: #f4f7f6;
+    }
+  }  
+  
+  &__content {
+    margin-left: 18px;
+
+    &__date {
+      font-size: 0.8rem;
+      font-weight: normal;
+      color: rgba(0, 0, 0, 0.54);
+    }
+    
+    &__title {
+      margin-top: 5px;
+      font-size: 0.94rem;
+      font-weight: bold;
+      line-height: 1.29;
+    }
+    
+    &__link {
+      color: #000000;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    
+    &__link:hover {
+      color: #b59f5b;
+    }
+  }  
+}

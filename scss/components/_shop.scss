@@ -1,0 +1,86 @@
+.shop {
+  @extend %width-1200-centerX;
+  @extend %padding-top-64;
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 23px;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  &__img {
+    width: 100%;
+    max-width: 100%;
+
+    &__wrapper {
+      background-color: #eff6f1;
+    }
+  }
+
+  &__content {
+    outline: 3px solid rgba(181, 159, 91, 0.6);
+    outline-offset: 20px;
+    padding-top: 30px;
+    margin-top: -13px;
+    flex: 1;
+  }
+
+  &__title {
+    font-size: 1.33rem;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #0f0d0e;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    font-weight: normal;
+    line-height: 1.47;
+    margin-top: 5px;
+  }
+
+  &__link {
+    color: #b59f5b;
+    text-decoration: none;
+
+    &:hover {
+      border-bottom: 1px solid #b59f5b;
+    }
+  }
+
+  &__footer {
+    display: flex;
+    margin-top: 21px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__price {
+    font-weight: bold;
+    color: #0f0d0e;
+
+    &_old {
+      font-size: 0.94rem;
+      text-decoration: line-through;
+
+      &_hidden {
+        opacity: 0;
+      }
+    }  
+  
+    &_actual {
+      font-size: 1.33rem;
+    }
+  }
+
+  &__shop-link {
+    @extend %button-typography;
+    flex-basis: 140px;
+    text-decoration: none;
+    text-align: center;
+  }
+}

@@ -1,0 +1,83 @@
+.button {
+  background-color: #b59f5b;
+  border: none;
+
+  &:hover {
+    background-color: #323232;
+  }
+
+  &:focus {
+    @extend %outline;
+  }
+
+  &_send {
+    @extend %button-typography;
+    margin-top: 25px;
+    cursor: pointer;
+  }
+
+  &_up {
+    z-index: 5;
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    padding: 8px 13px;
+    font-size: 1.5rem;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  &_menu {
+    width: 1.6rem;
+    height: 1.4rem;
+    border: none;
+    background-color: transparent;
+    text-indent: -9999px;
+    cursor: pointer;
+    position: relative;
+    
+    &::before,
+    &::after {
+      content: "";
+      width: 100%;
+      height: 20%;
+      border-radius: 5px;
+      background-color: #ffffff;
+      position: absolute;
+      left: 0;
+    }
+  
+    &::before {
+      top: 0;
+    }
+  
+    &::after {
+      bottom: 0;
+    }
+  
+    &__span {
+      width: 100%;
+      height: 20%;
+      border-radius: 5px;
+      background-color: #ffffff;
+      position: absolute;
+      left: 0;
+      top: 40%;
+    }
+  }
+
+  &_search {
+    width: 48px;
+    background-image: url("../svg/search.svg");
+    background-repeat: no-repeat;
+    background-size: 1.2rem;
+    background-position: center;
+  }
+
+  &_subscribe {
+    @extend %button-typography;
+    margin-top: 18px;
+  }
+}

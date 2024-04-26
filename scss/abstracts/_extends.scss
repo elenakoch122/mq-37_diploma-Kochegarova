@@ -1,0 +1,31 @@
+%on-top-everything {
+  position: relative;
+  z-index: 3;
+}
+
+%outline {
+  outline: 1px solid #b59f5b;
+}
+
+%width-all {
+  width: 100%;
+}
+
+%button-typography {
+  width: 100%;
+  padding: 16px;
+  font-size: 0.94rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+%width-1200-centerX {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+%padding-top-64 {
+  padding-top: 64px;
+}

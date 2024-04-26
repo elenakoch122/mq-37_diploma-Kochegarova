@@ -1,0 +1,22 @@
+.menu {
+  &__list {
+    display: flex;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 0.87rem;
+    font-weight: normal;
+  }
+  
+  &__item:nth-child(n+2) {
+    margin-left: 2.3rem;
+  }
+  
+  &__link {
+    color: #ffffff;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }  
+}

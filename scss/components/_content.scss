@@ -1,0 +1,6 @@
+.content {
+  @extend %width-1200-centerX;
+  @extend %padding-top-64;
+  display: flex;
+  align-items: flex-start;
+}

@@ -1,0 +1,52 @@
+.heading {
+  @extend %on-top-everything;
+  width: 45rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.6;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section__heading {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #0f0d0e;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 66px;
+    height: 3px;
+    background-color: rgba(181, 159, 91, 0.4);
+    margin: 10px auto 27px;
+  }
+
+  &_main {
+    font-size: 1.33rem;
+  }
+
+  &_aside {
+    font-size: 0.94rem;
+  }
+}
+
+.title {
+  margin-top: 10px;
+  font-size: 1.33em;
+  font-weight: bold;
+  line-height: 1.2;
+
+  &__link {
+    text-transform: uppercase;
+    text-decoration: none;
+
+    &:hover {
+      color: #b59f5b;
+    }
+  }  
+}

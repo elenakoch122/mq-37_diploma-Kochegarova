@@ -1,0 +1,56 @@
+.articles {}
+
+.article {
+  display: flex;
+  align-items: flex-start;
+
+  &:nth-child(n+2) {
+    margin-top: 60px;
+  }
+
+  &__img {
+    object-fit: cover;
+    display: block;
+
+    &__wrapper {
+      background-color: #eff6f1;
+    }
+  }
+
+  &__link {
+    color: #0f0d0e;
+  }
+
+  &__post {
+    &__info {
+      display: flex;
+      margin-top: 32px;
+
+      &__date {
+        margin-right: 0.94rem;
+        font-size: 0.8rem;
+        font-weight: normal;
+        color: #888888;
+      }
+    
+      &__author {
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: #000000;
+      }
+    }
+
+    &__text {
+      &:nth-child(n+2) {
+        margin-top: 15px;
+      }
+
+      &__wrapper {
+        margin-top: 48px;
+        font-weight: normal;
+        line-height: 1.47;
+        color: #0f0d0e;
+      }
+    }    
+  }
+}

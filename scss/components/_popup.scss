@@ -1,0 +1,81 @@
+.popup {
+  padding-top: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  z-index: 4;
+
+  &_hidden {
+    display: none;
+  }
+
+  &__wrapper {
+    position: relative;
+    width: 26rem;
+    margin: auto;
+    background-color: #fff;
+  }
+
+  &__content {
+    padding: 53px 30px;
+  }
+
+  &__block {
+    font-size: 0.87rem;
+
+    &:not(:last-child) {
+      /*срабатывает на последний ????*/
+      margin-bottom: 32px;
+    }
+    
+    // &:nth-child(n+2) {
+    // 	margin-top: 32px;
+    // }
+  }
+
+  &__question {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #000;
+    line-height: 1.3;
+  }
+
+  &__select {
+    width: 100%;
+    font-family: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    // background-image: url("../svg/form-arrows.svg");
+    background-image: url("../../assets/svg/form-arrows.svg");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    background-size: 0.6rem 1rem;
+  }
+
+  &__textarea {
+    @extend %width-all;
+    font-family: inherit;
+    font-size: inherit;
+    resize: none;
+    min-height: 8.67rem;
+  }
+
+  &__closeBtn {
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    top: -1.7rem;
+    right: 0;
+    cursor: pointer;
+    background-image: url("/assets/svg/form-x.svg");
+    background-repeat: no-repeat;
+    background-size: 1.2rem;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+  }
+}

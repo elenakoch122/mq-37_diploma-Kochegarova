@@ -1,0 +1,62 @@
+.trends {
+  padding-top: 60px;
+
+  &__wrapper {
+    display: flex;
+  }
+}
+
+.trend {
+  padding: 134px 20px 15px;
+  background-color: #eff6f1;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+  }
+  
+  &_one {
+    background-image: url("../images/trend1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  &_two {
+    background-image: url("../images/trend2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  &_three {
+    background-image: url("../images/trend3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  &_four {
+    background-image: url("../images/trend4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  &__box {
+    padding: 36px 34px;
+    border: 3px solid rgba(181, 159, 91, 0.6);
+    position: relative;
+    z-index: 3;
+    flex: 1;
+  }
+
+  &__link {
+    color: #fff;
+  }
+}

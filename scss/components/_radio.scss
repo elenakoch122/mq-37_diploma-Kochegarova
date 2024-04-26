@@ -1,0 +1,21 @@
+.radio {
+  &:nth-child(n+2) {
+    margin-left: 13px;
+  }
+  
+  &__text::before {
+    content: "";
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-image: url("../svg/form-empty-circle.svg");
+    background-repeat: no-repeat;
+    background-size: 1.2rem;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  
+  &__choice:checked~&__text::before {
+    background-image: url("../svg/form-circle.svg");
+  }
+}

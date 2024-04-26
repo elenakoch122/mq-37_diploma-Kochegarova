@@ -1,0 +1,20 @@
+.category {
+  display: flex;
+  list-style-type: none;
+  font-size: 0.94em;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  &__item:nth-child(n+2) {
+    margin-left: 1.2em;
+  }
+  
+  &__link {
+    text-decoration: none;
+    color: #b59f5b;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }  
+}

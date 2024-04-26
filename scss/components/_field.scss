@@ -1,0 +1,12 @@
+.field {
+  padding: 16px 19px;
+  background-color: #f4f7f6;
+  border: none;
+  font-size: 0.87rem;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.54);
+
+  &:focus {
+    @extend %outline;
+  }
+}
