@@ -32,23 +32,23 @@
     }
 
     &.twitter::before {
-      background-image: url("../svg/004-twitter.svg");
+      background-image: url("/assets/svg/004-twitter.svg");
     }
     
     &.pinterest::before {
-      background-image: url("../svg/001-pinterest.svg");
+      background-image: url("/assets/svg/001-pinterest.svg");
     }
     
     &.facebook::before {
-      background-image: url("../svg/002-facebook-logo.svg");
+      background-image: url("/assets/svg/002-facebook-logo.svg");
     }
     
     &.instagram::before {
-      background-image: url("../svg/005-instagram.svg");
+      background-image: url("/assets/svg/005-instagram.svg");
     }
     
     &.tumblr::before {
-      background-image: url("../svg/003-tumblr.svg");
+      background-image: url("/assets/svg/003-tumblr.svg");
     }
   }
 }
