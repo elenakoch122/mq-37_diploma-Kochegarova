@@ -569,16 +569,16 @@ body {
   font-weight: bold;
   text-transform: uppercase;
 }
-.tag_item {
+.tag__item {
   margin-top: 6px;
   margin-right: 4px;
   padding: 5px 11px;
   border: 3px solid #ededed;
 }
-.tag_item:hover {
+.tag__item:hover {
   border-color: #b59f5b;
 }
-.tag_link {
+.tag__link {
   color: #0f0d0e;
   text-decoration: none;
 }

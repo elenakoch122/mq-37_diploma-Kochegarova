@@ -6,7 +6,7 @@
   font-weight: bold;
   text-transform: uppercase;
 
-  &_item {
+  &__item {
     margin-top: 6px;
     margin-right: 4px;
     padding: 5px 11px;
@@ -17,7 +17,7 @@
     }
   }  
   
-  &_link {
+  &__link {
     color: #0f0d0e;
     text-decoration: none;
   }
