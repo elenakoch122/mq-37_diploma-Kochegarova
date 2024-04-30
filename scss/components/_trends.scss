@@ -4,6 +4,28 @@
   &__wrapper {
     display: flex;
   }
+
+  @media (min-width: $mobile-max) and (max-width: $tablet-min) {
+    padding-top: 45px;
+
+    &__wrapper {
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: $mobile-min) {
+    padding-top: 40px;
+
+    &__wrapper {
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: $mobile-min) and (orientation: portrait) {
+    &__wrapper {
+      flex-direction: column;
+    }
+  }
 }
 
 .trend {
@@ -58,5 +80,78 @@
 
   &__link {
     color: #fff;
+  }
+
+  @media (min-width: $tablet-max) {
+    flex: 1;
+
+    &:nth-child(n+2) {
+      margin-left: 4px;
+    }
+  }
+
+  @media (min-width: $mobile-max) and (max-width: $tablet-min) {
+    padding: 74px 20px 15px;
+  }
+
+  @media (min-width: $mobile-max) and (max-width: $tablet-min) and (orientation: portrait),
+  (max-width: $mobile-min) and (orientation: landscape) {
+    flex-basis: 49.7%;
+
+    &:nth-child(odd) {
+      margin-right: 0.3%;
+    }
+  
+    &:nth-child(even) {
+      margin-left: 0.3%;
+    }
+  
+    &:nth-child(n+3) {
+      margin-top: 4px;
+    }
+  }
+
+  @media (min-width: $mobile-max) and (max-width: $tablet-min) and (orientation: landscape) {
+    flex-basis: 24.75%;
+
+    &:nth-child(4n+1),
+    &:nth-child(4n+2) {
+      margin-right: 0.3%;
+    }
+  
+    &:nth-child(4n+4) {
+      margin-left: 0.3%;
+    }
+  
+    &:nth-child(n+5) {
+      margin-top: 3px;
+    }
+  
+    &__box {
+      padding: 15px;
+    }
+  }
+
+  @media (min-width: $mobile-max) and (max-width: $tablet-transitional) and (orientation: landscape) {
+    padding: 70px 10px 10px;
+
+    &__box {
+      padding: 8px;
+      font-size: 11px;
+    }
+  }
+
+  @media (max-width: $mobile-min) {
+    padding: 66px 15px 15px;
+
+    &__box {
+      padding: 32px 20px;
+    }
+  }
+
+  @media (max-width: $mobile-min) and (orientation: portrait) {
+    &:nth-child(n+2) {
+      margin-top: 3px;
+    }
   }
 }

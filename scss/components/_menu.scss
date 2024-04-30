@@ -18,5 +18,15 @@
     &:hover {
       text-decoration: underline;
     }
-  }  
+  }
+
+  @media (max-width: $tablet-min) {
+    &__list {
+      display: none;
+    }
+  }
+
+  @media (max-width: $mobile-min) {
+    align-self: flex-end;
+  }
 }

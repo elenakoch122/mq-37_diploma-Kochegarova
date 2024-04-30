@@ -18,4 +18,16 @@
   &__choice:checked~&__text::before {
     background-image: url("/assets/svg/form-circle.svg");
   }
+
+  @media (max-width: $tablet-min) {
+    &:nth-child(n+2) {
+      margin-left: 34px;
+    }
+  
+    &__text::before {
+      width: 1.6rem;
+      height: 1.6rem;
+      background-size: 1.6rem;
+    }
+  }
 }

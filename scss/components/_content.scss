@@ -3,4 +3,17 @@
   @extend %padding-top-64;
   display: flex;
   align-items: flex-start;
+
+  @media (min-width: $mobile-max) and (max-width: $tablet-min) {
+    padding-top: 50px;
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+
+  @media (max-width: $mobile-min) {
+    display: block;
+    padding-top: 44px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
 }

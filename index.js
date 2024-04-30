@@ -8,3 +8,6 @@ feedback.addEventListener('click', (e) => {
 
 const popupCloseBtn = document.querySelector('.popup__closeBtn');
 popupCloseBtn.addEventListener('click', () => popup.classList.add('popup_hidden'));
+
+const burgerMenu = document.querySelector('.button_menu');
+burgerMenu.addEventListener('click', () => popup.classList.add('popup_hidden'));

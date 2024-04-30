@@ -2,4 +2,19 @@
   &__img {
     width: 12rem;
   }
+
+  @media (min-width: $mobile-max) and (max-width: $tablet-min) {
+    &__img {
+      width: 10.5rem;
+    }
+  }
+
+  @media (max-width: $mobile-min) {
+    order: 2;
+    margin-top: 174px;
+
+    &__img {
+      width: 17.9rem;
+    }
+  }
 }

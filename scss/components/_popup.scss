@@ -77,4 +77,34 @@
     background-color: transparent;
     border: none;
   }
+
+  @media (max-width: $tablet-min) {
+    padding-top: 45px;
+
+    &__closeBtn {
+      width: 1.8rem;
+      height: 1.8rem;
+      background-size: 1.8rem;
+    }
+  }
+
+  @media (min-width: $mobile-max) and (max-width: $tablet-min) {
+    &__closeBtn {
+      top: -2.4rem;
+    }
+  }
+
+  @media (max-width: $mobile-min) {
+    &__wrapper {
+      width: 22rem;
+    }
+
+    &__content {
+      padding: 30px 25px;
+    }
+
+    &__closeBtn {
+      top: -2.2rem;
+    }
+  }
 }

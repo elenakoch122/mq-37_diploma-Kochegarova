@@ -1,4 +1,26 @@
 .sidebar {
   width: 272px;
   flex-shrink: 0;
+
+  @media (min-width: $tablet-max) {
+    margin-left: 120px;
+  }
+
+  @media (min-width: $mobile-max) and (max-width: $tablet-min) {
+    margin-left: 35px;
+  }
+
+  @media (min-width: $mobile-max) {
+    &__section:nth-child(n+2) {
+      margin-top: 60px;
+    }
+  }
+
+  @media (max-width: $mobile-min) {
+    width: auto;
+
+    &__section {
+      margin-top: 40px;
+    }
+  }
 }

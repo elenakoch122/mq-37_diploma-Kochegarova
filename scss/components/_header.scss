@@ -1,6 +1,5 @@
 .header {
-  padding-top: 28px;
-  padding-bottom: 130px;
+  padding: 28px 20px 130px;
   background-image: url("/assets/images/banner-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,5 +26,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+
+  @media (min-width: $mobile-max) and (max-width: $tablet-min) {
+    padding: 43px 35px 112px;
+    background-image: url("/assets/images/banner-bg-tablet.jpg");    
+  }
+
+  @media (max-width: $mobile-min) {
+    padding: 31px 15px 219px;
+    background-image: url("/assets/images/banner-mobile.jpg");
+
+    &__wrapper {
+      flex-direction: column;
+    }
   }
 }

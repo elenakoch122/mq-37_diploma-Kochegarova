@@ -9,6 +9,24 @@
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
+
+  @media (min-width: $tablet-max) {
+    margin-top: 105px;
+  }
+
+  @media (min-width: $mobile-max) and (max-width: $tablet-min) {
+    width: auto;
+    margin-top: 88px;
+    font-size: 2.7rem;
+    line-height: 1.4;
+  }
+
+  @media (max-width: $mobile-min) {
+    width: auto;
+    margin-top: 45px;
+    font-size: 1.7rem;
+    line-height: 1.4;
+  }
 }
 
 .section__heading {
@@ -33,6 +51,22 @@
   &_aside {
     font-size: 0.94rem;
   }
+
+  @media (min-width: $mobile-max) and (max-width: $tablet-min) {
+    &_main {
+      font-size: 1.2rem;
+    }
+  }
+
+  @media (max-width: $mobile-min) {
+    &_main {
+      font-size: 1.07rem;
+    }
+  
+    &_aside {
+      font-size: 1.07rem;
+    }
+  }
 }
 
 .title {
@@ -48,5 +82,15 @@
     &:hover {
       color: #b59f5b;
     }
-  }  
+  }
+
+  @media (min-width: $mobile-max) and (max-width: $tablet-min) {
+    font-size: 1.13em;
+    line-height: 1.3;
+  }
+
+  @media (max-width: $mobile-min) {
+    font-size: 1.07rem;
+    line-height: 1.25;
+  }
 }

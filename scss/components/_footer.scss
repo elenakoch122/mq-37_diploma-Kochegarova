@@ -9,6 +9,20 @@
     background-color: #f4f7f6;
     text-align: center;
   }
+
+  @media (min-width: $mobile-max) and (max-width: $tablet-min) {
+    margin-top: 73px;
+    margin-bottom: 37px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  @media (max-width: $mobile-min) {
+    margin-top: 67px;
+    margin-bottom: 47px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .socials {
@@ -61,4 +75,8 @@
   font-weight: bold;
   color: #999999;
   text-decoration: none;
+
+  @media (max-width: $tablet-min) {
+    margin-top: 48px;
+  }
 }

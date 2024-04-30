@@ -66,6 +66,14 @@
       left: 0;
       top: 40%;
     }
+
+    @media (min-width: $tablet-max) {
+      display: none;
+    }
+
+    @media (max-width: $mobile-min) {
+      align-self: end;
+    }
   }
 
   &_search {
