@@ -522,6 +522,9 @@ body {
   }
 }
 
+.menu_visible {
+  display: block !important;
+}
 .menu__list {
   display: flex;
   list-style-type: none;
@@ -540,8 +543,22 @@ body {
   text-decoration: underline;
 }
 @media (max-width: 1199px) {
-  .menu__list {
+  .menu {
     display: none;
+    position: absolute;
+    z-index: 5;
+    top: 35px;
+    right: 0px;
+    width: 13rem;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .menu__list {
+    flex-direction: column;
+    align-items: end;
+  }
+  .menu__item:nth-child(n+1) {
+    margin: 0 0 10px;
   }
 }
 @media (max-width: 640px) {
