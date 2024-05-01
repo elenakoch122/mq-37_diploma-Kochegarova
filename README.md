@@ -5,5 +5,6 @@
 *[Ссылка на задание](https://github.com/netology-code/mq-diploma).*
 ### Стек технологий
 - HTML
-- CSS
+- Sass
+- JavaScript
 - адаптивная верстка
