@@ -463,7 +463,7 @@ body {
 
 .header {
   padding: 28px 20px 130px;
-  background-image: url("/assets/images/banner-bg.jpg");
+  background-image: url("assets/images/banner-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #666666;
@@ -491,13 +491,13 @@ body {
 @media (min-width: 641px) and (max-width: 1199px) {
   .header {
     padding: 43px 35px 112px;
-    background-image: url("/assets/images/banner-bg-tablet.jpg");
+    background-image: url("assets/images/banner-bg-tablet.jpg");
   }
 }
 @media (max-width: 640px) {
   .header {
     padding: 31px 15px 219px;
-    background-image: url("/assets/images/banner-mobile.jpg");
+    background-image: url("assets/images/banner-mobile.jpg");
   }
   .header__wrapper {
     flex-direction: column;
