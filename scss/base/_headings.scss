@@ -33,14 +33,14 @@
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
-  color: #0f0d0e;
+  color: $black-text;
 
   &::after {
     content: "";
     display: block;
     width: 66px;
     height: 3px;
-    background-color: rgba(181, 159, 91, 0.4);
+    background-color: $gold-border;
     margin: 10px auto 27px;
   }
 
@@ -80,7 +80,7 @@
     text-decoration: none;
 
     &:hover {
-      color: #b59f5b;
+      color: $gold;
     }
   }
 

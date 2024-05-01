@@ -18,7 +18,7 @@
   }
 
   &__link {
-    color: #0f0d0e;
+    color: $black-text;
   }
 
   &__post {
@@ -49,7 +49,7 @@
         margin-top: 48px;
         font-weight: normal;
         line-height: 1.47;
-        color: #0f0d0e;
+        color: $black-text;
       }
     }    
   }

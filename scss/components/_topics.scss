@@ -21,14 +21,14 @@
     vertical-align: bottom;
 
     &:hover {
-      color: #b59f5b;
+      color: $gold;
     }
   }
 
   &__count {
     font-size: 0.8rem;
     font-weight: bold;
-    color: #b59f5b;
+    color: $gold;
     vertical-align: top;
   }
 }

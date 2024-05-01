@@ -106,7 +106,7 @@ body {
   display: block;
   width: 66px;
   height: 3px;
-  background-color: rgba(181, 159, 91, 0.4);
+  background-color: rgba(181, 159, 91, 0.6);
   margin: 10px auto 27px;
 }
 .section__heading_main {

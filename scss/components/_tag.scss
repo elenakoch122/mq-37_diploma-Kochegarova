@@ -13,12 +13,12 @@
     border: 3px solid #ededed;
 
     &:hover {
-      border-color: #b59f5b;
+      border-color: $gold;
     }
   }  
   
   &__link {
-    color: #0f0d0e;
+    color: $black-text;
     text-decoration: none;
   }
 }

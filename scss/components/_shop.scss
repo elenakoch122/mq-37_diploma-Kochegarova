@@ -40,7 +40,7 @@
 
   &__content {
     position: relative;
-    outline: 3px solid rgba(181, 159, 91, 0.6);
+    outline: 3px solid $gold-border;
     outline-offset: 20px;
     padding-top: 30px;
     margin-top: -13px;
@@ -51,7 +51,7 @@
     font-size: 1.33rem;
     font-weight: bold;
     line-height: 1.2;
-    color: #0f0d0e;
+    color: $black-text;
     text-transform: uppercase;
   }
 
@@ -63,11 +63,11 @@
   }
 
   &__link {
-    color: #b59f5b;
+    color: $gold;
     text-decoration: none;
 
     &:hover {
-      border-bottom: 1px solid #b59f5b;
+      border-bottom: 1px solid $gold;
     }
   }
 
@@ -79,7 +79,7 @@
 
   &__price {
     font-weight: bold;
-    color: #0f0d0e;
+    color: $black-text;
 
     &_old {
       font-size: 0.94rem;
