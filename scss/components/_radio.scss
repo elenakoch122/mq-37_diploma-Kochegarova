@@ -8,7 +8,7 @@
     display: inline-block;
     width: 1.2rem;
     height: 1.2rem;
-    background-image: url("/assets/svg/form-empty-circle.svg");
+    background-image: url("../assets/svg/form-empty-circle.svg");
     background-repeat: no-repeat;
     background-size: 1.2rem;
     margin-right: 5px;
@@ -16,7 +16,7 @@
   }
   
   &__choice:checked~&__text::before {
-    background-image: url("/assets/svg/form-circle.svg");
+    background-image: url("../assets/svg/form-circle.svg");
   }
 
   @media (max-width: $tablet-min) {

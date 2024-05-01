@@ -33,13 +33,13 @@
 
 @font-face {
   font-family: OpenSans;
-  src: url(/assets/fonts/OpenSans-Bold.woff2) format("woff2"), url(/assets/fonts/OpenSans-Bold.woff) format("woff"), url(/assets/fonts/OpenSans-Bold.ttf) format("truetype");
+  src: url(../assets/fonts/OpenSans-Bold.woff2) format("woff2"), url(../assets/fonts/OpenSans-Bold.woff) format("woff"), url(../assets/fonts/OpenSans-Bold.ttf) format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: OpenSans;
-  src: url(/assets/fonts/OpenSans-Regular.woff2) format("woff2"), url(/assets/fonts/OpenSans-Regular.woff) format("woff"), url(/assets/fonts/OpenSans-Regular.ttf) format("truetype");
+  src: url(../assets/fonts/OpenSans-Regular.woff2) format("woff2"), url(../assets/fonts/OpenSans-Regular.woff) format("woff"), url(../assets/fonts/OpenSans-Regular.ttf) format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -333,7 +333,7 @@ body {
 }
 .button_search {
   width: 48px;
-  background-image: url("/assets/svg/search.svg");
+  background-image: url("../assets/svg/search.svg");
   background-repeat: no-repeat;
   background-size: 1.2rem;
   background-position: center;
@@ -431,19 +431,19 @@ body {
   background-position: center center;
 }
 .socials__link.twitter::before {
-  background-image: url("/assets/svg/004-twitter.svg");
+  background-image: url("../assets/svg/004-twitter.svg");
 }
 .socials__link.pinterest::before {
-  background-image: url("/assets/svg/001-pinterest.svg");
+  background-image: url("../assets/svg/001-pinterest.svg");
 }
 .socials__link.facebook::before {
-  background-image: url("/assets/svg/002-facebook-logo.svg");
+  background-image: url("../assets/svg/002-facebook-logo.svg");
 }
 .socials__link.instagram::before {
-  background-image: url("/assets/svg/005-instagram.svg");
+  background-image: url("../assets/svg/005-instagram.svg");
 }
 .socials__link.tumblr::before {
-  background-image: url("/assets/svg/003-tumblr.svg");
+  background-image: url("../assets/svg/003-tumblr.svg");
 }
 
 .copyright {
@@ -463,7 +463,6 @@ body {
 
 .header {
   padding: 28px 20px 130px;
-  /* background-image: url("/assets/images/banner-bg.jpg"); */
   background-image: url("../assets/images/banner-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -492,13 +491,13 @@ body {
 @media (min-width: 641px) and (max-width: 1199px) {
   .header {
     padding: 43px 35px 112px;
-    background-image: url("/assets/images/banner-bg-tablet.jpg");
+    background-image: url("../assets/images/banner-bg-tablet.jpg");
   }
 }
 @media (max-width: 640px) {
   .header {
     padding: 31px 15px 219px;
-    background-image: url("/assets/images/banner-mobile.jpg");
+    background-image: url("../assets/images/banner-mobile.jpg");
   }
   .header__wrapper {
     flex-direction: column;
@@ -645,7 +644,7 @@ body {
   font-family: inherit;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-image: url("/assets/svg/form-arrows.svg");
+  background-image: url("../assets/svg/form-arrows.svg");
   background-repeat: no-repeat;
   background-position: right 14px center;
   background-size: 0.6rem 1rem;
@@ -663,7 +662,7 @@ body {
   top: -1.7rem;
   right: 0;
   cursor: pointer;
-  background-image: url("/assets/svg/form-x.svg");
+  background-image: url("../assets/svg/form-x.svg");
   background-repeat: no-repeat;
   background-size: 1.2rem;
   background-position: center;
@@ -705,14 +704,14 @@ body {
   display: inline-block;
   width: 1.2rem;
   height: 1.2rem;
-  background-image: url("/assets/svg/form-empty-circle.svg");
+  background-image: url("../assets/svg/form-empty-circle.svg");
   background-repeat: no-repeat;
   background-size: 1.2rem;
   margin-right: 5px;
   vertical-align: middle;
 }
 .radio__choice:checked ~ .radio__text::before {
-  background-image: url("/assets/svg/form-circle.svg");
+  background-image: url("../assets/svg/form-circle.svg");
 }
 @media (max-width: 1199px) {
   .radio:nth-child(n+2) {
@@ -986,22 +985,22 @@ body {
   z-index: 2;
 }
 .trend_one {
-  background-image: url("/assets/images/trend1.jpg");
+  background-image: url("../assets/images/trend1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .trend_two {
-  background-image: url("/assets/images/trend2.jpg");
+  background-image: url("../assets/images/trend2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .trend_three {
-  background-image: url("/assets/images/trend3.jpg");
+  background-image: url("../assets/images/trend3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .trend_four {
-  background-image: url("/assets/images/trend4.jpg");
+  background-image: url("../assets/images/trend4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
